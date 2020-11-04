@@ -1,0 +1,2 @@
+AuthName "zawartość chroniona"
+AuthUserFile "/home/mama/.htpasswds/public_html/GRA FUT PIŁKARZE/passwd"

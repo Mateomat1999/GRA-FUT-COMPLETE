@@ -1,0 +1,47 @@
+.home {
+  width: 80%;
+}
+
+.left-menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 250px;
+    background: #504989;
+    margin: 0;
+}
+
+.left-menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+.left-menu li {
+    margin: 30px auto;
+}
+
+.left-menu ul li a {
+    font-weight: 100;
+    font-size: 16px;
+    color: #504989;
+    text-decoration: none;
+    margin: 0px 15px;
+    text-transform: uppercase;
+}
+
+.left-menu ul li a:hover {
+    color: #fff;
+}
+
+#nav-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+
+#nav-icon span {
+    font-size: 42px;
+    color: #2A3D45;
+}

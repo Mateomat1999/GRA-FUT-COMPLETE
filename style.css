@@ -1,0 +1,146 @@
+body {
+  height: 100vh;
+  background-image: url(img/tlo.png);
+  background-attachment: fixed;
+  margin: 0;
+  color: #ffffff;
+}
+
+.bg-ciemny {
+  background-color: #212529;
+}
+
+.napis {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.rejlog {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.przycisk {
+
+  display: block;
+  width: 300px;
+  /* margin: auto; */
+  margin: 20px auto 0 auto;
+  font-weight: bold;
+  background-color: #455A64;
+  color: #ffffff;
+  padding: 10px 0;
+  border-radius: 2px;
+  transition: background-color .3s ease, width .3s ease;
+}
+
+.przycisk:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #37474F;
+  width: 340px;
+}
+
+.left-menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.left-menu ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.left-menu li {
+    margin: 40px auto;
+}
+
+.left-menu ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px 15px;
+    display: block;
+    background-color: #455A64;
+    padding: 10px 0;
+    border-radius: 2px;
+    transition: background-color .3s ease,
+                transform .3s ease;
+}
+
+.left-menu ul li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #37474F;
+  transform: scale(1.1);
+}
+
+#nav-icon {
+    position: absolute;
+
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+
+#nav-icon span {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.formularz {
+  background-color: #455a648c;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -khtml-border-radius-topright: 20px;
+    -khtml-border-radius-bottomleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 14px;
+  	color: #ffffffab;
+  	padding: 15px 30px;
+
+}
+
+.stopka {
+    color: #FFFFFF;
+    font-weight: 500;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.wyniki {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+}
+
+.wyniki table {
+  margin: 20px;
+}
+
+#drop_zone{
+    padding: 20px;
+    width:150px;
+    border: 1px dashed #000000;
+    text-align: center;
+}
